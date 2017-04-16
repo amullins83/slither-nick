@@ -1,0 +1,11 @@
+{
+	"name": "Slither Nick",
+	"manifest_version": 2,
+	"version": "0.0.1",
+	"content_scripts": [
+		{
+			"matches": ["*://slither.io/"],
+			"js": ["slither-nick.js"]
+		}
+	]
+}
